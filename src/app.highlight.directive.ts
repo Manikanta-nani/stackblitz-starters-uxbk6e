@@ -11,6 +11,6 @@ export class Highlight {
   }
   @HostListener('mouseenter')
   onmouseenter(): void {
-    alert(this.elementref.nativeElement.innerText);
+    //alert(this.elementref.nativeElement.innerText);
   }
 }
